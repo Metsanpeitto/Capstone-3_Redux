@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const url = "http://api.openweathermap.org/data/2.5/forecast?";
-const appId = "7d21fcc19d2a5ea9e47384b584b78a2e";
+const url = 'http://api.openweathermap.org/data/2.5/forecast?';
+const appId = '7d21fcc19d2a5ea9e47384b584b78a2e';
 
 const getBooks = async () => axios.get(`${url}/apps/${appId}/books`).then((result) => {
   const books = [];

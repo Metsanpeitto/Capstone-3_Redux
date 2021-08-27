@@ -8,8 +8,21 @@ export const receiveLocations = (locations) => ({
 });
 
 export const getLocations = () => (dispatch) => {
-  api.getLocations().then((locations) => {
-    dispatch(receiveLocations(locations));
-    return locations;
-  });
+  // eslint-disable-next-line spaced-comment
+  //let oldLocations = JSON.parse(localStorage.getItem('locations'));
+  // eslint-disable-next-line spaced-comment
+  let oldLocations = null;
+  if (!oldLocations) {
+    api.getLocations().then((locations) => {
+      dispatch(receiveLocations(locations));
+      // eslint-disable-next-line indent
+     // localStorage.setItem('locations', JSON.stringify(locations));
+      oldLocations = locations;
+    });
+  } else {
+    setTimeout(() => {
+      dispatch(receiveLocations(oldLocations), 1000);
+    });
+  }
+  return oldLocations;
 };

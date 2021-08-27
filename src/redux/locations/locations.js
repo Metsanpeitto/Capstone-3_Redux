@@ -1,12 +1,36 @@
-const RECEIVE_LOCATIONS = 'locationStore/locations/RECEIVE_LOCATIONS';
+import Finland from '../../imgs/finland.png';
+import Norway from '../../imgs/norway.png';
+import Sweden from '../../imgs/sweden.png';
+import Denmark from '../../imgs/denmark.png';
 
-const initialState = { locations: [] };
+const RECEIVE_LOCATIONS = 'locationStore/locations/RECEIVE_LOCATIONS';
+const FETCH_CITIES = 'locationStore/locations/FETCH_CITIES';
+
+export const fetchCities = (cities) => ({
+  type: FETCH_CITIES,
+  cities,
+});
+
+const initialState = {
+  countries: ['Denmark', 'Finland', 'Norway', 'Sweden'],
+  imgs: [Denmark, Finland, Norway, Sweden],
+  locations: null,
+  cities: null,
+};
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case RECEIVE_LOCATIONS: {
-      const { locaitons } = action;
-      return { locaitons };
+      const { locations } = action;
+      return {
+        ...state, locations,
+      };
+    }
+    case FETCH_CITIES: {
+      const { cities } = action;
+      return {
+        ...state, cities,
+      };
     }
     default:
       return state;

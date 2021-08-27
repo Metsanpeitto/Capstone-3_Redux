@@ -2,8 +2,9 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Route, Switch } from 'react-router-dom';
 import store from './redux/configureStore';
-import Navbar from './components/Navbar';
 import Locations from './pages/Locations';
+import Details from './pages/Details';
+import NavBar from './components/Navbar';
 import { getLocations } from './redux/api/api';
 import './App.scss';
 
@@ -24,9 +25,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Navbar />
+        <NavBar />
         <Switch>
           <Route exact path="/" component={Locations} />
+          <Route exact path="/Details" component={Details} />
         </Switch>
       </div>
     );
