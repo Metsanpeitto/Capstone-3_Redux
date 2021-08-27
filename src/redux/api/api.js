@@ -7,6 +7,7 @@ export const receiveLocations = (locations) => ({
   locations,
 });
 
+// eslint-disable-next-line no-unused-vars
 export const getLocations = () => (dispatch) => {
   // eslint-disable-next-line spaced-comment
   //let oldLocations = JSON.parse(localStorage.getItem('locations'));
@@ -14,9 +15,10 @@ export const getLocations = () => (dispatch) => {
   let oldLocations = null;
   if (!oldLocations) {
     api.getLocations().then((locations) => {
+      console.log(locations);
       dispatch(receiveLocations(locations));
       // eslint-disable-next-line indent
-     // localStorage.setItem('locations', JSON.stringify(locations));
+      // localStorage.setItem('locations', JSON.stringify(locations));
       oldLocations = locations;
     });
   } else {

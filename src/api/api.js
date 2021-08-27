@@ -149,9 +149,9 @@ const getLocations = async () => {
       const tempMaxC = (temp_max - kelvinDifference).toFixed(2);
       const tempMinC = (temp_min - kelvinDifference).toFixed(2);
 
-      const temp = `${tempC}C`;
-      const tempMax = `${tempMaxC}C`;
-      const tempMin = `${tempMinC}C`;
+      const temp = `${tempC} C `;
+      const tempMax = `${tempMaxC} C `;
+      const tempMin = `${tempMinC} C `;
 
       const city = {
         id,
@@ -168,14 +168,6 @@ const getLocations = async () => {
     });
     countriesNew.push(citiesNew);
   });
-  const scandinavia = {
-    Finland: countriesNew[0],
-    Sweden: countriesNew[1],
-    Norway: countriesNew[2],
-    Denmark: countriesNew[3],
-  };
-  const response = [scandinavia];
-  console.log(response);
-  return response;
+  return countriesNew;
 };
 export default { getLocations };

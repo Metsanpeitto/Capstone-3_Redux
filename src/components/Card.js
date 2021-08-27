@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 function Card(props) {
   const { img, cities, country } = props;
-  const city = cities[0];
+  const city = cities;
   const {
     temp, tempMax, tempMin, main,
   } = city;

@@ -19,7 +19,6 @@ function Displayer() {
   };
 
   useEffect(() => {
-    console.log(countries);
     if (!countriesFiltered) {
       if (countries !== countriesOld) {
         setCountriesOld(countries);
@@ -50,14 +49,14 @@ function Displayer() {
 
       {locations ? (
         <div className="displayer-countries">
-          {countries.map((c, index) => (
+          {countriesOld.map((c, index) => (
             <Link
               key={countries[index]}
               to={{
                 pathname: './Details',
                 itemProps: {
                   countryName: countries[index],
-                  data: locations[0][countries[index]],
+                  data: locations[index],
                   img: imgs[index],
                 },
               }}
@@ -65,7 +64,7 @@ function Displayer() {
               exact="true"
             >
               <Card
-                cities={locations[0].Finland}
+                cities={locations[index]}
                 img={imgs[index]}
                 country={countries[index]}
               />

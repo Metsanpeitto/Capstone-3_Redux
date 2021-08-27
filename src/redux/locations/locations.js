@@ -1,3 +1,4 @@
+/* eslint-disable object-shorthand */
 import Finland from '../../imgs/finland.png';
 import Norway from '../../imgs/norway.png';
 import Sweden from '../../imgs/sweden.png';
@@ -12,8 +13,8 @@ export const fetchCities = (cities) => ({
 });
 
 const initialState = {
-  countries: ['Denmark', 'Finland', 'Norway', 'Sweden'],
-  imgs: [Denmark, Finland, Norway, Sweden],
+  countries: ['Finland', 'Sweden', 'Norway', 'Denmark'],
+  imgs: [Finland, Sweden, Norway, Denmark],
   locations: null,
   cities: null,
 };
@@ -29,7 +30,8 @@ const reducer = (state = initialState, action) => {
     case FETCH_CITIES: {
       const { cities } = action;
       return {
-        ...state, cities,
+        ...state,
+        cities: cities,
       };
     }
     default:
