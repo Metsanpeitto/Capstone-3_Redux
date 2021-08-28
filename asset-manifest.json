@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Metsanpeitto/Capstone-3_Redux/static/css/main.8e636848.chunk.css",
+    "main.js": "/Metsanpeitto/Capstone-3_Redux/static/js/main.1f2f36ab.chunk.js",
+    "main.js.map": "/Metsanpeitto/Capstone-3_Redux/static/js/main.1f2f36ab.chunk.js.map",
+    "runtime-main.js": "/Metsanpeitto/Capstone-3_Redux/static/js/runtime-main.f4207720.js",
+    "runtime-main.js.map": "/Metsanpeitto/Capstone-3_Redux/static/js/runtime-main.f4207720.js.map",
+    "static/js/2.64116e5e.chunk.js": "/Metsanpeitto/Capstone-3_Redux/static/js/2.64116e5e.chunk.js",
+    "static/js/2.64116e5e.chunk.js.map": "/Metsanpeitto/Capstone-3_Redux/static/js/2.64116e5e.chunk.js.map",
+    "static/js/3.dbd61cc8.chunk.js": "/Metsanpeitto/Capstone-3_Redux/static/js/3.dbd61cc8.chunk.js",
+    "static/js/3.dbd61cc8.chunk.js.map": "/Metsanpeitto/Capstone-3_Redux/static/js/3.dbd61cc8.chunk.js.map",
+    "index.html": "/Metsanpeitto/Capstone-3_Redux/index.html",
+    "static/css/main.8e636848.chunk.css.map": "/Metsanpeitto/Capstone-3_Redux/static/css/main.8e636848.chunk.css.map",
+    "static/js/2.64116e5e.chunk.js.LICENSE.txt": "/Metsanpeitto/Capstone-3_Redux/static/js/2.64116e5e.chunk.js.LICENSE.txt",
+    "static/media/denmark.82a15586.png": "/Metsanpeitto/Capstone-3_Redux/static/media/denmark.82a15586.png",
+    "static/media/finland.9c0d44c3.png": "/Metsanpeitto/Capstone-3_Redux/static/media/finland.9c0d44c3.png",
+    "static/media/microphone.dc190fb4.svg": "/Metsanpeitto/Capstone-3_Redux/static/media/microphone.dc190fb4.svg",
+    "static/media/next.3cd62455.svg": "/Metsanpeitto/Capstone-3_Redux/static/media/next.3cd62455.svg",
+    "static/media/norway.adc68c56.png": "/Metsanpeitto/Capstone-3_Redux/static/media/norway.adc68c56.png",
+    "static/media/scandinavia.6c700251.png": "/Metsanpeitto/Capstone-3_Redux/static/media/scandinavia.6c700251.png",
+    "static/media/settings.f17c8abf.svg": "/Metsanpeitto/Capstone-3_Redux/static/media/settings.f17c8abf.svg",
+    "static/media/sweden.a00cbf4b.png": "/Metsanpeitto/Capstone-3_Redux/static/media/sweden.a00cbf4b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4207720.js",
+    "static/js/2.64116e5e.chunk.js",
+    "static/css/main.8e636848.chunk.css",
+    "static/js/main.1f2f36ab.chunk.js"
+  ]
+}
