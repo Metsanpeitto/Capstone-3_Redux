@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/Capstone-3_Redux/static/css/main.8e636848.chunk.css",
-    "main.js": "/Capstone-3_Redux/static/js/main.ca1496fb.chunk.js",
-    "main.js.map": "/Capstone-3_Redux/static/js/main.ca1496fb.chunk.js.map",
-    "runtime-main.js": "/Capstone-3_Redux/static/js/runtime-main.958a01f9.js",
-    "runtime-main.js.map": "/Capstone-3_Redux/static/js/runtime-main.958a01f9.js.map",
-    "static/js/2.64116e5e.chunk.js": "/Capstone-3_Redux/static/js/2.64116e5e.chunk.js",
-    "static/js/2.64116e5e.chunk.js.map": "/Capstone-3_Redux/static/js/2.64116e5e.chunk.js.map",
-    "static/js/3.dbd61cc8.chunk.js": "/Capstone-3_Redux/static/js/3.dbd61cc8.chunk.js",
-    "static/js/3.dbd61cc8.chunk.js.map": "/Capstone-3_Redux/static/js/3.dbd61cc8.chunk.js.map",
-    "index.html": "/Capstone-3_Redux/index.html",
-    "static/css/main.8e636848.chunk.css.map": "/Capstone-3_Redux/static/css/main.8e636848.chunk.css.map",
-    "static/js/2.64116e5e.chunk.js.LICENSE.txt": "/Capstone-3_Redux/static/js/2.64116e5e.chunk.js.LICENSE.txt",
-    "static/media/denmark.82a15586.png": "/Capstone-3_Redux/static/media/denmark.82a15586.png",
-    "static/media/finland.9c0d44c3.png": "/Capstone-3_Redux/static/media/finland.9c0d44c3.png",
-    "static/media/microphone.dc190fb4.svg": "/Capstone-3_Redux/static/media/microphone.dc190fb4.svg",
-    "static/media/next.3cd62455.svg": "/Capstone-3_Redux/static/media/next.3cd62455.svg",
-    "static/media/norway.adc68c56.png": "/Capstone-3_Redux/static/media/norway.adc68c56.png",
-    "static/media/scandinavia.6c700251.png": "/Capstone-3_Redux/static/media/scandinavia.6c700251.png",
-    "static/media/settings.f17c8abf.svg": "/Capstone-3_Redux/static/media/settings.f17c8abf.svg",
-    "static/media/sweden.a00cbf4b.png": "/Capstone-3_Redux/static/media/sweden.a00cbf4b.png"
+    "main.css": "/static/css/main.8e636848.chunk.css",
+    "main.js": "/static/js/main.c14db742.chunk.js",
+    "main.js.map": "/static/js/main.c14db742.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cae6ab77.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cae6ab77.js.map",
+    "static/js/2.a376c739.chunk.js": "/static/js/2.a376c739.chunk.js",
+    "static/js/2.a376c739.chunk.js.map": "/static/js/2.a376c739.chunk.js.map",
+    "static/js/3.dbd61cc8.chunk.js": "/static/js/3.dbd61cc8.chunk.js",
+    "static/js/3.dbd61cc8.chunk.js.map": "/static/js/3.dbd61cc8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8e636848.chunk.css.map": "/static/css/main.8e636848.chunk.css.map",
+    "static/js/2.a376c739.chunk.js.LICENSE.txt": "/static/js/2.a376c739.chunk.js.LICENSE.txt",
+    "static/media/denmark.82a15586.png": "/static/media/denmark.82a15586.png",
+    "static/media/finland.9c0d44c3.png": "/static/media/finland.9c0d44c3.png",
+    "static/media/microphone.dc190fb4.svg": "/static/media/microphone.dc190fb4.svg",
+    "static/media/next.3cd62455.svg": "/static/media/next.3cd62455.svg",
+    "static/media/norway.adc68c56.png": "/static/media/norway.adc68c56.png",
+    "static/media/scandinavia.6c700251.png": "/static/media/scandinavia.6c700251.png",
+    "static/media/settings.f17c8abf.svg": "/static/media/settings.f17c8abf.svg",
+    "static/media/sweden.a00cbf4b.png": "/static/media/sweden.a00cbf4b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.958a01f9.js",
-    "static/js/2.64116e5e.chunk.js",
+    "static/js/runtime-main.cae6ab77.js",
+    "static/js/2.a376c739.chunk.js",
     "static/css/main.8e636848.chunk.css",
-    "static/js/main.ca1496fb.chunk.js"
+    "static/js/main.c14db742.chunk.js"
   ]
 }
