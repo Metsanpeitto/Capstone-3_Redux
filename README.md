@@ -43,7 +43,7 @@ If you want a copy of this file go to the github repository and download it from
 
 ```cmd
 git clone  https://github.com/Metsanpeitto/Capstone-3_Redux.git
-cd ./bookstore_m3_w3
+cd ./Capstone-3_Redux
 ```
 
 ### Install
