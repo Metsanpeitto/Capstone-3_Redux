@@ -37,24 +37,29 @@ body {
   grid-template-columns: 20% 60% 10% 10%;
   padding: 2%;
 }
+
 .App .header .arrow-left {
   height: 13px;
   align-self: center;
   transform: scale(-1);
 }
+
 .App .header .mic {
   width: 18px;
 }
+
 .App .header .settings {
   width: 18px;
   margin-left: auto;
 }
+
 .App .header .header-title {
   text-align: center;
   color: white;
   align-self: center;
   font-size: 14px;
 }
+
 .App .head {
   width: 100%;
   padding: 5%;
@@ -62,25 +67,30 @@ body {
   grid-template-columns: 50% 50%;
   position: relative;
 }
+
 .App .head .head-left {
   display: grid;
 }
+
 .App .head .head-left .continent {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
+
 .App .head .head-right {
   width: 50%;
   color: white;
   display: grid;
   position: relative;
 }
+
 .App .head .head-right .title {
   align-self: end;
   font-size: 18px;
   text-transform: uppercase;
 }
+
 .App .stats {
   color: white;
   padding: 2%;
@@ -94,37 +104,46 @@ body {
   grid-template-rows: 100%;
   background-color: #d94d75;
 }
+
 .App .stats .filter-category {
   background-color: transparent;
   color: white;
   border-color: white;
 }
+
 .App .stats select option {
   margin: 40px;
   background: #d94d75;
   color: #fff;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 }
+
 .App .stats select option[value="1"] {
   background: rgba(100, 100, 100, 0.3);
 }
+
 .App .stats select option[value="2"] {
   background-color: transparent;
 }
+
 .App .stats select option[value="3"] {
   background-color: transparent;
 }
+
 .App .stats select option[value="4"] {
   background-color: transparent;
 }
+
 .App .locations .locations-displayer {
   margin-top: 5%;
 }
+
 .App .locations .locations-displayer .displayer-countries {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
 }
+
 .App .locations .locations-displayer .displayer-countries .card {
   color: white;
   position: relative;
@@ -133,33 +152,42 @@ body {
   text-align: end;
   padding-bottom: 10%;
 }
+
 .App .locations .locations-displayer .displayer-countries .card:nth-child(1) {
   background-color: #d94d75;
 }
+
 .App .locations .locations-displayer .displayer-countries .card:nth-child(2) {
   background-color: #ce597a41;
 }
+
 .App .locations .locations-displayer .displayer-countries .card:nth-child(3) {
   background-color: #ce597a41;
 }
+
 .App .locations .locations-displayer .displayer-countries .card:nth-child(4) {
   background-color: #d94d75;
 }
+
 .App .locations .locations-displayer .displayer-countries .card .img-country {
   width: 50%;
   height: 150px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .App .locations .locations-displayer .displayer-countries .card .name-country {
   padding-right: 5%;
 }
+
 .App .locations .locations-displayer .displayer-countries .card .temperature-country {
   padding-right: 5%;
 }
+
 .App .locations .locations-displayer .displayer-countries .card .main-country {
   padding-right: 5%;
 }
+
 .App .locations .locations-displayer .displayer-countries .card .max-min {
   display: flex;
   width: -webkit-max-content;
@@ -168,30 +196,38 @@ body {
   margin-left: auto;
   padding-right: 5%;
 }
+
 .App .locations .locations-displayer .displayer-countries .card .max-min .temperature-min-country {
   padding-right: 5%;
 }
+
 .App .details .details-displayer .details-city {
   color: white;
   display: grid;
   grid-template-columns: 33% 33% 33%;
   padding: 5%;
 }
+
 .App .details .details-displayer .details-city:nth-child(1) {
   background-color: #d94d75;
 }
+
 .App .details .details-displayer .details-city:nth-child(2) {
   background-color: #ce597a41;
 }
+
 .App .details .details-displayer .details-city:nth-child(3) {
   background-color: #d94d75;
 }
+
 .App .details .details-displayer .details-city:nth-child(4) {
   background-color: #ce597a41;
 }
+
 .App .details .details-displayer .details-city:nth-child(5) {
   background-color: #d94d75;
 }
+
 .App .details .details-displayer .details-city .city-max-min {
   display: flex;
-}/*# sourceMappingURL=App.css.map */
+}

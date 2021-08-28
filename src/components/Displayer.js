@@ -10,21 +10,28 @@ function Displayer() {
   const { locationsReducer } = useSelector((state) => state);
   const { filtersReducer } = useSelector((state) => state);
   const { countries, imgs, locations } = locationsReducer;
-  const { countriesFiltered } = filtersReducer;
+  const { countriesFiltered, locationsFiltered, imgsFiltered } = filtersReducer;
   const [countriesOld, setCountriesOld] = useState(null);
+  const [locationsOld, setLocationsOld] = useState(null);
+  const [imgsOld, setImgsOld] = useState(null);
 
   const filter = (e) => {
     const { value } = e.target;
-    dispatch(filterCountries(value));
+    const payload = { value, locations, imgs };
+    dispatch(filterCountries(payload));
   };
 
   useEffect(() => {
     if (!countriesFiltered) {
-      if (countries !== countriesOld) {
+      if (countries !== countriesOld || locations !== locationsOld) {
         setCountriesOld(countries);
+        setLocationsOld(locations);
+        setImgsOld(imgs);
       }
     } else if (countriesFiltered !== countriesOld) {
       setCountriesOld(countriesFiltered);
+      setLocationsOld(locationsFiltered);
+      setImgsOld(imgsFiltered);
     }
   });
 
@@ -47,26 +54,26 @@ function Displayer() {
         </select>
       </div>
 
-      {locations ? (
+      {locationsOld ? (
         <div className="displayer-countries">
           {countriesOld.map((c, index) => (
             <Link
-              key={countries[index]}
+              key={c}
               to={{
-                pathname: './Details',
+                pathname: `${process.env.PUBLIC_URL}/Details`,
                 itemProps: {
-                  countryName: countries[index],
-                  data: locations[index],
-                  img: imgs[index],
+                  countryName: c,
+                  data: locationsOld[index],
+                  img: imgsOld[index],
                 },
               }}
               active="true"
               exact="true"
             >
               <Card
-                cities={locations[index]}
-                img={imgs[index]}
-                country={countries[index]}
+                cities={locationsOld[index]}
+                img={imgsOld[index]}
+                country={c}
               />
             </Link>
           ))}

@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 import reducer from './locations';
 import { receiveLocations } from '../__mocks__/api';
 import locations from '../__mocks__/locations';

@@ -1,11 +1,16 @@
-# bookstore_m3_w3
+# React capstone project - Metrics webapp
 
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
-"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
-- Make simple calculations.
-- Read a random math-related quote.
+![Alt Text](https://github.com/Metsanpeitto/Capstone-3_Redux/screenshot.gif)
 
+
+
+Metrics webapp is an application that displays the temperature in different countries of the Scandinavian peninsule.
+- Main page: The 4 countries are displayed by default, and manipulating the filter is possible to display only the
+selected one. When clicking on one of the countries cards the user is redirected to the 'Details' page.
+- Details page: The 4 more relevants cities are displayed. Clicking the 'Left arrow' on the navbar redirects the user
+to the homepage.
 
 =======
 
@@ -13,13 +18,14 @@
 
 - HTML/CSS
 - React.JS
+- Redux.JS
 - Node.JS
 
 =======
 
 ### Project requirements
 
-
+The node_modules should be installed with 'npm install' in case of wanting to run it locally. 
 
 ## Getting Started
 
@@ -61,8 +67,8 @@ npx stylelint "**/*.{css,scss}"
 - Autofix linters errors
 
 ```cmd
-npx eslint . --fix
-npx stylelint "**/*.{css,scss}" --fix
+npx eslint-fix
+npx stylelint-fix
 ```
 
 ## To run jest test
