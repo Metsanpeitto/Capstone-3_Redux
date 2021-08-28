@@ -2,7 +2,7 @@
 
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
-![Alt Text](https://github.com/Metsanpeitto/Capstone-3_Redux/screenshot.gif)
+![me](https://github.com/Metsanpeitto/Capstone-3_Redux/blob/feature-testing/screenshot.gif)
 
 
 
