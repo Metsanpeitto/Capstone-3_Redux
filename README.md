@@ -1,24 +1,26 @@
-# bookstore_m3_w3
+# Scandinavian Weather App
 
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
-"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
-- Make simple calculations.
-- Read a random math-related quote.
-
+Scandinavian Weather App : 
+This App displays the temperature in some cities of the continental scandinavian countries.
+It was build using ReactJs/Redux and  it follows the guidelines provided by the Microverse team.
 
 =======
 
 ## Built With 
 
-- HTML/CSS
+- HTML/SCSS
 - React.JS
+- Redux
+- Jest
 - Node.JS
 
 =======
 
 ### Project requirements
 
+Need a modern browser to visit the live site.
 
 
 ## Getting Started
@@ -37,7 +39,7 @@ If you want a copy of this file go to the github repository and download it from
 
 ```cmd
 git clone  https://github.com/Metsanpeitto/Capstone-3_Redux.git
-cd ./bookstore_m3_w3
+cd ./Capstone-3_Redux
 ```
 
 ### Install
@@ -97,7 +99,6 @@ If you are non a technical person you can download the zip file.
 👤 **Abraham Rodriguez**
 
 - GitHub: [@metsanpeitto](https://github.com/Metsanpeitto)
-- Twitter: [@metsanpeitto](https://twitter.com/home)
 - LinkedIn: [Abraham Rodriguez](https://www.linkedin.com/in/abraham-rodriguez-3283a319a/)
 - Portfolio: [Waldenberg](https://portfolio.waldenberginc.com)
 
