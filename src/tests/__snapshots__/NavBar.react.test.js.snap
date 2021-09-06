@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<a
+  active="true"
+  exact="true"
+  href="/"
+  onClick={[Function]}
+>
+  <img
+    alt="return"
+    className="arrow-left"
+    src="next.svg"
+  />
+</a>
+`;

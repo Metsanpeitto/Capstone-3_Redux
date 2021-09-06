@@ -128,7 +128,6 @@ const getLocations = async () => {
       ),
     );
 
-  // eslint-disable-next-line no-unused-vars
   const countriesObject = locations.europe;
   const keys = Object.keys(countriesObject);
   const countriesNew = [];

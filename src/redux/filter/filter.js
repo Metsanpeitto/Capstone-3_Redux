@@ -3,6 +3,8 @@ const FILTER_REFRESH = 'locationStore/filter/FILTER_REFRESH';
 
 const initialState = {
   countriesFiltered: null,
+  locationsFiltered: null,
+  imgs: null,
   value: '-',
   countries: ['Finland', 'Sweden', 'Norway', 'Denmark'],
 };
@@ -15,22 +17,31 @@ export const filterCountries = (payload) => ({
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case FILTER_COUNTRIES: {
-      const value = action.payload;
+      const { value, locations, imgs } = action.payload;
+      console.log(action);
       const { countries } = state;
       let newCountries = [];
+      let newLocations = [];
+      let newImgs = [];
       if (countries.length > 0) {
         if (value === '-') {
           newCountries = null;
+          newLocations = null;
+          newImgs = null;
         } else {
-          countries.forEach((c) => {
+          countries.forEach((c, index) => {
             if (c === value) {
               newCountries.push(c);
+              newLocations.push(locations[index]);
+              newImgs.push(imgs[index]);
             }
           });
         }
       }
       return {
         countriesFiltered: newCountries,
+        locationsFiltered: newLocations,
+        imgsFiltered: newImgs,
         value,
         countries,
       };

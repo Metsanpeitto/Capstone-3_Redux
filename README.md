@@ -1,10 +1,14 @@
-# Scandinavian Weather App
+# React capstone project - Metrics webapp
 
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
-Scandinavian Weather App : 
-This App displays the temperature in some cities of the continental scandinavian countries.
-It was build using ReactJs/Redux and  it follows the guidelines provided by the Microverse team.
+![me](https://github.com/Metsanpeitto/Capstone-3_Redux/blob/feature-testing/screenshot.gif)
+
+Metrics webapp is an application that displays the temperature in different countries of the Scandinavian peninsule.
+- Main page: The 4 countries are displayed by default, and manipulating the filter is possible to display only the
+selected one. When clicking on one of the countries cards the user is redirected to the 'Details' page.
+- Details page: The 4 more relevants cities are displayed. Clicking the 'Left arrow' on the navbar redirects the user
+to the homepage.
 
 =======
 
@@ -42,6 +46,7 @@ git clone  https://github.com/Metsanpeitto/Capstone-3_Redux.git
 cd ./Capstone-3_Redux
 ```
 
+
 ### Install
 
 ```cmd
@@ -63,8 +68,8 @@ npx stylelint "**/*.{css,scss}"
 - Autofix linters errors
 
 ```cmd
-npx eslint . --fix
-npx stylelint "**/*.{css,scss}" --fix
+npx eslint-fix
+npx stylelint-fix
 ```
 
 ## To run jest test
