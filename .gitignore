@@ -10,6 +10,15 @@
 
 # production
 /build
+.github/workflows
+.sass-cache
+.vscode
+.babelrc
+.slintrc.json
+.gitignore
+.stylelintrc.json
+jest-setup
+jest-config
 
 # misc
 .DS_Store

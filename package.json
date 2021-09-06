@@ -1,4 +1,5 @@
-{ "homepage": ".",
+{
+  "homepage": ".",
   "name": "capstone-3_redux",
   "version": "0.1.0",
   "private": true,
@@ -32,7 +33,7 @@
     "deploy": "gh-pages -d build",
     "eslint": "npx eslint . --fix",
     "stylelint": "npx stylelint \"**/*.{css,scss}\" --fix",
-    "lint": "npm run eslint && npm run stylelint",    
+    "lint": "npm run eslint && npm run stylelint",
     "eslint-fix": "npx eslint . --fix",
     "stylelint-fix": "npx stylelint \"**/*.{css,scss}\" --fix"
   },
