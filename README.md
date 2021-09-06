@@ -36,7 +36,7 @@ If you want a copy of this file go to the github repository and download it from
 
 ### Live
 
-[Live](https://github.com/Metsanpeitto/Capstone-3_Redux/)
+[Live](https://metsanpeitto.github.io/Capstone-3_Redux/#/)
 
 
 ### Setup
