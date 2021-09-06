@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React from 'react';
 import Displayer from '../components/Displayer';
 import Scandinavia from '../imgs/scandinavia.png';

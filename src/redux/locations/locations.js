@@ -1,4 +1,3 @@
-/* eslint-disable object-shorthand */
 import Finland from '../../imgs/finland.png';
 import Norway from '../../imgs/norway.png';
 import Sweden from '../../imgs/sweden.png';
@@ -31,7 +30,7 @@ const reducer = (state = initialState, action) => {
       const { cities } = action;
       return {
         ...state,
-        cities: cities,
+        cities,
       };
     }
     default:
