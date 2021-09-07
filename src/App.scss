@@ -1,0 +1,241 @@
+$color-red: #ec638a;
+$color-red-light: #ce597a41;
+$color-red-dark: #d94d75;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: unset;
+  padding: unset;
+}
+
+a {
+  text-decoration: unset;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: unset;
+  padding: unset;
+}
+
+body {
+  background-color: $color-red;
+  margin: unset;
+  padding: unset;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: unset;
+  font-family: "Lato", sans-serif;
+}
+
+.App {
+  .header {
+    background-color: #d73f6a;
+    display: grid;
+    grid-template-columns: 20% 60% 10% 10%;
+    padding: 2%;
+
+    .arrow-left {
+      height: 13px;
+      align-self: center;
+      transform: scale(-1);
+    }
+
+    .mic {
+      width: 18px;
+    }
+
+    .settings {
+      width: 18px;
+      margin-left: auto;
+    }
+
+    .header-title {
+      text-align: center;
+      color: white;
+      align-self: center;
+      font-size: 14px;
+    }
+  }
+
+  .head {
+    width: 100%;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+
+    .head-left {
+      display: grid;
+
+      .continent {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    .head-right {
+      width: 50%;
+      color: white;
+      display: grid;
+      position: relative;
+
+      .title {
+        align-self: end;
+        font-size: 18px;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .stats {
+    color: white;
+    padding: 2%;
+    position: relative;
+    width: 95%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100%;
+    background-color: $color-red-dark;
+
+    .filter-category {
+      background-color: transparent;
+      color: white;
+      border-color: white;
+    }
+
+    select option {
+      margin: 40px;
+      background: $color-red-dark;
+      color: #fff;
+      text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    }
+
+    select option[value="1"] {
+      background: rgba(100, 100, 100, 0.3);
+    }
+
+    select option[value="2"] {
+      background-color: transparent;
+    }
+
+    select option[value="3"] {
+      background-color: transparent;
+    }
+
+    select option[value="4"] {
+      background-color: transparent;
+    }
+  }
+
+  .locations {
+    .locations-displayer {
+      margin-top: 5%;
+
+      .displayer-countries {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+
+        .card {
+          color: white;
+          position: relative;
+          display: grid;
+          height: 60vw;
+          text-align: end;
+          padding-bottom: 10%;
+
+          &:nth-child(1) {
+            background-color: $color-red-dark;
+          }
+
+          &:nth-child(2) {
+            background-color: $color-red-light;
+          }
+
+          &:nth-child(3) {
+            background-color: $color-red-light;
+          }
+
+          &:nth-child(4) {
+            background-color: $color-red-dark;
+          }
+
+          .img-country {
+            width: 50%;
+            height: 150px;
+            margin-left: auto;
+            margin-right: auto;
+          }
+
+          .name-country {
+            padding-right: 5%;
+          }
+
+          .temperature-country {
+            padding-right: 5%;
+          }
+
+          .main-country {
+            padding-right: 5%;
+          }
+
+          .max-min {
+            display: flex;
+            width: max-content;
+            margin-left: auto;
+            padding-right: 5%;
+
+            .temperature-min-country {
+              padding-right: 5%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .details {
+    .details-displayer {
+      .details-city {
+        color: white;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        padding: 5%;
+
+        &:nth-child(1) {
+          background-color: $color-red-dark;
+        }
+
+        &:nth-child(2) {
+          background-color: $color-red-light;
+        }
+
+        &:nth-child(3) {
+          background-color: $color-red-dark;
+        }
+
+        &:nth-child(4) {
+          background-color: $color-red-light;
+        }
+
+        &:nth-child(5) {
+          background-color: $color-red-dark;
+        }
+
+        .city-max-min {
+          display: flex;
+        }
+      }
+    }
+  }
+}
