@@ -33,6 +33,10 @@ If you want a copy of this file go to the github repository and download it from
 
 - [`git clone https://github.com/Metsanpeitto/Capstone-3_Redux`](https://github.com/Metsanpeitto/Capstone-3_Redux)
 
+### Presentation video
+
+[Video](https://drive.google.com/file/d/17YIk7TeuBCjYPRM0oDl_YhMJ57uQmpRW/view?usp=sharing)
+
 
 ### Live
 
