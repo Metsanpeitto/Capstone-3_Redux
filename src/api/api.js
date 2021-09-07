@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 import axios from 'axios';
 
 const url = 'https://api.openweathermap.org/data/2.5/find?';
@@ -141,11 +140,13 @@ const getLocations = async () => {
       const {
         id, name, main, rain, snow,
       } = cityObject;
-      const { temp_max, temp_min, humidity } = main;
+      const { humidity } = main;
+      const tempMaxRaw = main.temp_max;
+      const tempMinRaw = main.temp_min;
       const tmpK = main.temp;
       const tempC = (tmpK - kelvinDifference).toFixed(2);
-      const tempMaxC = (temp_max - kelvinDifference).toFixed(2);
-      const tempMinC = (temp_min - kelvinDifference).toFixed(2);
+      const tempMaxC = (tempMaxRaw - kelvinDifference).toFixed(2);
+      const tempMinC = (tempMinRaw - kelvinDifference).toFixed(2);
 
       const temp = `${tempC} C `;
       const tempMax = `${tempMaxC} C `;

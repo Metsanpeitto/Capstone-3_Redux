@@ -18,7 +18,6 @@ class App extends React.Component {
 
   componentDidMount() {
     if (this.props) {
-      // eslint-disable-next-line react/prop-types
       const { getLocations } = this.props;
       getLocations();
     }

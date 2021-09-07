@@ -128,7 +128,7 @@ Give a ⭐️ if you like this project!
 =======
 
 ## Acknowledgments
-
+- [NelsoSakwa](https://www.behance.net/sakwadesignstudio) For the design used to build this site.
 - Microverse for giving me this chance
 - The amazing code reviewers for making me improve every day :thumbsup:
 
